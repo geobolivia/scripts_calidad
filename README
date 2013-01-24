@@ -1,0 +1,2 @@
+Este repositorio contiene scripts de analisis de los datos y metadatos de GeoBolivia
+* `report_metadata.py`: recupera los principales campos de un catalogo CSW, exportando en CSV y SHP (con las boundingboxes)
