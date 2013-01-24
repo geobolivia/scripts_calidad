@@ -19,7 +19,7 @@ git clone https://github.com/geobolivia/scripts_calidad.git
 sudo aptitude install python python-setuptools
 sudo easy_install pip
 sudo pip install python-dateutil
-sudo aptitude install python-unidecode
+sudo aptitude install python-unidecode python-urllib3
 sudo easy_install OWSLib
 sudo aptitude install python-gdal
 ```
@@ -34,3 +34,8 @@ Para utilizar el script `report_metadata.py`, ir en la carpeta y lanzar
 ```
 
 Los resultados, por omisión, se encuentran en la carpeta `/tmp`.
+
+Limitaciones
+============
+
+El script funciona con `OWSLib 0.5`. Parece que los cambios para la versión `0.6` añaden errores que no permiten obtener los resultados.
