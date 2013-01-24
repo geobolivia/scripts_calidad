@@ -38,4 +38,4 @@ Los resultados, por omisión, se encuentran en la carpeta `/tmp`.
 Limitaciones
 ============
 
-El script funciona con `OWSLib 0.5`. Parece que los cambios para la versión `0.6` añaden errores que no permiten obtener los resultados.
+El script funciona con `OWSLib 0.5`. Parece que los cambios para la versión `0.6` manejar nuevas excepciones que no permiten obtener los resultados.
